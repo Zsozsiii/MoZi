@@ -1,31 +1,48 @@
 body{
+    margin: 0;
     background-color: white;
 }
 header{
     background-color: #7c9cd8;
     color: white;
     width: 100%;
-    margin: 0;
+    margin-top: 0;
     position: fixed;
     box-sizing: border-box;
-    padding: 10px;
+    padding: 5px;
 }
 header a:hover{
     color: #037171;
     background-color: white;
-    padding: 7px;
     border-radius: 10px;
 }
 
-header img{
+header a{
+    margin-right: 20px;
+    line-height: 40px;
+    float: right;
+    text-decoration: none;
+    padding: 15px;
+    color: #EAF1FF;
+    font-size: 25px;
+}
+
+header #profil{
+    background-color: #7c9cd8;
+    padding: 5px;
+}
+
+header img {
+    margin-right: -5px;
     width: 50px;
     height: 50px;
-    float: right;
-
 }
 
 header h1{
-    line-height: 50px;
+    margin: 15px;
+    vertical-align: center;
+    font-size: 45px;
+    line-height: 70px;
     display: inline;
 }
 
