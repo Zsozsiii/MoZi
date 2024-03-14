@@ -6,17 +6,26 @@ header{
     color: white;
     width: 100%;
     margin: 0;
-    text-align: justify;
     position: fixed;
+    box-sizing: border-box;
+    padding: 10px;
+}
+header a:hover{
+    color: #037171;
+    background-color: white;
+    padding: 7px;
+    border-radius: 10px;
 }
 
 header img{
     width: 50px;
     height: 50px;
     float: right;
+
 }
 
 header h1{
+    line-height: 50px;
     display: inline;
 }
 
