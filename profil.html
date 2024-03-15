@@ -4,27 +4,54 @@
     <meta charset="UTF-8">
     <title>Profil</title>
     <link rel="stylesheet" href="./style.css">
+    <style>
+        #profilkep{
+            width: 250px;
+            height: 250px;
+            display: block;
+            margin-left: 20px;
+        }
+
+        aside {
+            padding: 15px;
+            width: 25%;
+            margin: 15px;
+            padding-top: 70px;
+            background-color: #eaf1ff;
+            border-radius: 30px;
+            box-shadow: 5px 5px 30px 0 slategray;
+        }
+        #profil{
+
+            color: #037171;
+            font-size: 30px;
+        }
+        p{
+            font-size: 20px;
+            padding-left: 10px;
+        }
+        section{
+            margin-right: 50%;
+            margin-left: 50%;
+            color: #037171;
+            font-size: 30px;
+            vertical-align: center;
+            margin-top: -610px;
+        }
+    </style>
 </head>
 <body>
-
 <header>
     <h1>MoZi</h1>
-    <div class="dropdown">
-        <span>
-            <a href="./profil.html" id="profil"><img src="./icon.png" alt=""></a>
-        </span>
-        <div class="dropdown-content">
-            <p><a href="bejelentkezes.html">Bejelentkezés</a></p>
-            <p><a href="regisztracio.html">Regisztráció</a></p>
-        </div>
-    </div>
-    <a href="./fooldal.html">fooldal</a>
+    <a href="./profil.html"><img src="usericon.webp" alt=""></a>
     <a href="./chat.html">beszélgetéseim</a>
+    <a href="./fooldal.html">főoldal</a>
 </header>
-
 <main>
+
     <aside>
-        <img src="./usericon.webp" alt="profilkep">
+        <h1 id="profil">Profil</h1>
+        <img id="profilkep" src="./usericon.webp" alt="profilkep">
         <p>Felhaszáló név: </p>
         <p>Példa Józsi</p>
         <p>Születési dátum: </p>
