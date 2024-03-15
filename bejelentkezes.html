@@ -4,24 +4,61 @@
     <meta charset="UTF-8">
     <title>Bejelentkezés</title>
     <link rel="stylesheet" href="./style.css">
+    <style>
+        main {
+            position: absolute;
+            top: 80px;
+            margin: 10px;
+        }
+
+        form {
+            width: fit-content;
+        }
+
+        fieldset {
+            padding: 15px;
+            background-color: #EAF1FF;
+            border-radius: 30px;
+            border: none;
+            box-shadow: 5px 5px 30px 0 slategray;
+        }
+
+        legend {
+            color: #037171;
+            font-size: 30px;
+        }
+
+        label {
+            font-size: 20px;
+        }
+
+        input {
+            margin: 10px;
+            width: 300px;
+            height: 30px;
+        }
+    </style>
 </head>
 <body>
 <header>
     <h1>MoZi</h1>
-    <a href="./profil.html"><img src="./icon.png" alt=""></a>
+    <a href="./profil.html" id="profil"><img src="./icon.png" alt=""></a>
     <a href="./fooldal.html">Főoldal</a>
 </header>
-<form action="">
-    <fieldset>
-        <legend>Bejelentkezés</legend>
-        <label>Felhasználónév: <br>
-            <input type="text" name="username"></label> <br>
-        <label>Jelszó: <br>
-            <input type="password" name="password"></label> <br>
-        <input type="submit" value="Bejelentkezés"> <br>
-    </fieldset>
-</form>
-    <a href="./regisztracio.html">Regisztráció</a> <br>
-    <a href="./elfelejtett_jelszo.html">Elfelejtetted a jelszavad?</a>
+<main>
+    <form action="">
+        <fieldset>
+            <legend>Bejelentkezés</legend>
+            <label>Felhasználónév: <br>
+                <input type="text" name="username" required></label> <br>
+            <label>Jelszó: <br>
+                <input type="password" name="password" minlength="8" maxlength="14" required></label> <br>
+            <input type="submit" value="Bejelentkezés"> <br>
+        </fieldset>
+    </form>
+    <a href="./regisztracio.html">Még nincs profilom</a> <br>
+    <a href="./elfelejtett_jelszo.html">Elfelejtettem a jelszavam</a>
+</main>
+
 </body>
 </html>
