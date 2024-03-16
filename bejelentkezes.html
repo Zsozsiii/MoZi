@@ -8,34 +8,66 @@
         main {
             position: absolute;
             top: 80px;
-            margin: 10px;
-        }
-
-        form {
-            width: fit-content;
+            padding: 10px;
+            width: 100%;
         }
 
         fieldset {
-            padding: 15px;
+            display: block;
+            margin: 30px auto 30px auto;
+            padding: 30px 30px;
             background-color: #EAF1FF;
             border-radius: 30px;
             border: none;
             box-shadow: 5px 5px 30px 0 slategray;
-        }
-
-        legend {
-            color: #037171;
-            font-size: 30px;
+            width: 60%;
         }
 
         label {
+            display: block;
+            margin: auto;
+            color: #037171;
             font-size: 20px;
         }
 
         input {
             margin: 10px;
-            width: 300px;
+            border: solid thin #037171;
+            border-radius: 10px;
+            font-size: 15px;
+            width: 70%;
             height: 30px;
+        }
+
+        input[type="submit"] {
+            background-color: #65C7A5;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            font-size: 15px;
+            display: block;
+            width: 50%;
+            height: 40px;
+            margin: 15px auto 0 auto;
+        }
+
+        input[type="submit"]:hover {
+            transform: scale(110%);
+            transition-duration: 500ms;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        a {
+            font-size: 20px;
+            color: #037171;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #65C7A5;
         }
     </style>
 </head>
@@ -48,16 +80,15 @@
 <main>
     <form action="">
         <fieldset>
-            <legend>Bejelentkezés</legend>
             <label>Felhasználónév: <br>
-                <input type="text" name="username" required></label> <br>
+                <input type="text" name="username" required></label>
             <label>Jelszó: <br>
-                <input type="password" name="password" minlength="8" maxlength="14" required></label> <br>
-            <input type="submit" value="Bejelentkezés"> <br>
+                <input type="password" name="password" minlength="8" maxlength="16" required></label>
+            <input type="submit" value="Bejelentkezés">
         </fieldset>
     </form>
-    <a href="./regisztracio.html">Még nincs profilom</a> <br>
-    <a href="./elfelejtett_jelszo.html">Elfelejtettem a jelszavam</a>
+    <p><a href="./regisztracio.html">Még nincs profilom</a></p>
+    <p><a href="./elfelejtett_jelszo.html">Elfelejtettem a jelszavam</a></p>
 </main>
 
 </body>
