@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <title>Admin</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./forms.css">
 </head>
 <body>
+
 <header>
     <h1>MoZi</h1>
     <div class="dropdown">
@@ -19,5 +21,23 @@
     </div>
     <a href="./fooldal.html">Főoldal</a>
 </header>
+
+<main>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Film hozzáadása</legend>
+            <label>Cím: <br>
+                <input type="text" name="cim"></label>
+            <label>Leírás: <br>
+                <textarea name="leiras" rows="5"></textarea></label>
+            <label>Trailer URL címe: <br>
+                <input type="url" name="trailer"></label>
+            <label>Film plakátja: <br>
+                <input type="file" name="plakat"></label>
+            <input type="submit" value="Hozzáadás">
+        </fieldset>
+    </form>
+</main>
+
 </body>
 </html>
