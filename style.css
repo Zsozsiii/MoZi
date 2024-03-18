@@ -85,4 +85,25 @@ main {
     width: 100%;
 }
 
+#poster {
+    float: left;
+    margin: 10px;
+}
+
+#trailer {
+    padding: 10px;
+    background-color: #65C7A5;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+#trailer:hover {
+    background-color: #037171;
+}
+
+#trailer img {
+    height: 80%;
+}
+
 
