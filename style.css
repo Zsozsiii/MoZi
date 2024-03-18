@@ -78,4 +78,11 @@ header h1{
     float: none;
 }
 
+main {
+    position: absolute;
+    top: 80px;
+    padding: 10px;
+    width: 100%;
+}
+
 

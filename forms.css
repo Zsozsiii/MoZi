@@ -1,9 +1,4 @@
-main {
-    position: absolute;
-    top: 80px;
-    padding: 10px;
-    width: 100%;
-}
+
 
 fieldset {
     display: block;
@@ -24,7 +19,6 @@ legend {
 
 label {
     display: block;
-    margin: auto;
     color: #037171;
     font-size: 20px;
 }
@@ -34,7 +28,7 @@ input, textarea {
     border: solid thin #037171;
     border-radius: 10px;
     font-size: 15px;
-    width: 70%;
+    width: 95%;
     height: 30px;
 }
 
