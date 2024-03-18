@@ -90,6 +90,14 @@ main {
     margin: 10px;
 }
 
+main h1, h2 {
+    color: #037171;
+}
+
+#filmcim {
+    margin-bottom: 5px;
+}
+
 #trailer {
     padding: 10px;
     background-color: #65C7A5;
@@ -103,7 +111,18 @@ main {
 }
 
 #trailer img {
-    height: 80%;
+    height: 20px;
+    vertical-align: center;
+    margin: 5px;
+}
+
+#velemenyek {
+    display: block;
+}
+
+#velemenyek blockquote {
+    background-color: #EAF1FF;
+    padding: 5px 15px;
 }
 
 
