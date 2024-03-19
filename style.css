@@ -113,7 +113,6 @@ main h1, h2 {
 }
 
 #trailer img {
-
     height: 20px;
     vertical-align: center;
     margin: 5px;
@@ -144,6 +143,10 @@ main h1, h2 {
 
 #velemenyek p{
     margin: 0;
+}
+
+#velemenyek a{
+    text-decoration: none;
 }
 
 #komment{
