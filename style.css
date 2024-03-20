@@ -1,6 +1,6 @@
 body{
     margin:0;
-    background-color: white;
+    background-image: url("");
 }
 header{
     background-color: #7c9cd8;
@@ -208,4 +208,24 @@ aside {
     border-radius: 30px;
     box-shadow: 5px 5px 30px 0 slategray;
     color: #037171;
+}
+
+
+#chat aside{
+    margin-left: 10px;
+    height: 500px;
+}
+
+#chat a{
+    text-decoration: none;
+}
+
+section{
+    margin-right: 50%;
+    margin-left: 50%;
+    color: #037171;
+    font-size: 30px;
+    vertical-align: center;
+    text-align: center;
+
 }
