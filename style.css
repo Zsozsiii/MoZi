@@ -1,5 +1,6 @@
 body{
     margin:0;
+    background-image: url("bg.jpg");
 }
 header{
     background-color: #7c9cd8;
@@ -144,11 +145,15 @@ main h1, h2 {
     margin: 0;
 }
 
-
-
 #komment{
     margin-left: 40px;
     width: 50%;
+}
+
+#komment textarea{
+    border-radius: 15px;
+    width: 95%;
+    padding: 10px;
 }
 
 input[type="submit"] {
@@ -166,11 +171,6 @@ input[type="submit"]:hover{
     transform: scale(110%);
     transition-duration: 500ms;
 }
-textarea{
-    border-radius: 15px;
-    width: 90%;
-    padding: 10px;
-}
 
 .fo_plakat {
     display: inline-block;
@@ -180,8 +180,8 @@ textarea{
     margin: 10px;
 }
 
-.like {
-    height: 25px;
+.like input[type="image"]{
+    height: 35px;
     margin: 5px;
 }
 

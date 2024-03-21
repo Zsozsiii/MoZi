@@ -1,3 +1,18 @@
+aside a {
+    font-size: 20px;
+}
+
+form {
+    height: 35px;
+    display: inline-block;
+}
+
+input[type="image"] {
+    float: left;
+    margin: 5px;
+    height: 35px;
+}
+
 #beszelgeteseim{
     padding: 0px;
     width: 60vw;
@@ -68,32 +83,37 @@
 }
 
 
-.time-right {
+.name-right {
     float: right;
     color: white;
     font-size: 15px;
 }
 
 
-.time-left {
+.name-left {
     float: left;
     color: black;
     font-size: 15px;
 }
 
-#uzenet{
+#uzenet {
     margin: 0;
-    width: revert;
+    width: 100%;
 }
 
-#uzenet input
-{
+textarea{
+    border-radius: 15px;
+    width: 90%;
+    padding: 10px;
+}
+
+#uzenet input {
     margin-right: 4%;
     float: right;
 }
 
 #uzenet input::file-selector-button{
-    margin: 5px;
+    margin: 7px;
     background-color: #65C7A5;
     color: white;
     border: none;
