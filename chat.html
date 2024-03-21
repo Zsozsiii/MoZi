@@ -5,10 +5,10 @@
     <title>Chat</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./chat.css">
+    <link rel="stylesheet" href="profil.css">
 
 </head>
 <body>
-
 <header>
     <h1>MoZi</h1>
     <div class="dropdown">
@@ -25,14 +25,42 @@
 
 <aside id="chat">
     <h1>Profilok</h1>
-    <a class="beszelgetes"><p>beszelgetes 1</p></a>
-    <p>beszelgetes2</p>
-    <p>beszelgetes 3</p>
+    <a href="chat.html"><p>Jozsi</p></a>
+    <a href="chat.html"><p>Peti</p></a>
+    <a href="chat.html"><p>Juliska</p></a>
 </aside>
-<main>
-    <iframe src="beszelgetes.html" frameborder="0">
+<main id="beszelgeteseim">
+        <section>
+            <div class="container">
+                <img src="icon.png" alt="Profil">
+                <p>Hello. Neked hogy tetszett?</p>
+                <span class="time-right">11:00</span>
+            </div>
 
-    </iframe>
+            <div class="container lighter">
+                <img src="icon.png" alt="Profil" class="right">
+                <p>Hey!</p>
+                <span class="time-left">11:01</span>
+            </div>
+
+            <div class="container">
+                <img src="icon.png" alt="Profil">
+                <p>....</p>
+                <span class="time-right">11:02</span>
+            </div>
+
+            <div class="container lighter">
+                <img src="icon.png" alt="Profil" class="right">
+                <p>...</p>
+                <span class="time-left">11:05</span>
+            </div>
+            <form id="uzenet" action="">
+                <textarea name="komment" rows="2" placeholder="Kezdj el egy üzenetet"></textarea>
+                <br>
+                <input type="submit" value="Küldés">
+                <input type="file" name="küldött_file">
+            </form>
+        </section>
 </main>
 
 </body>

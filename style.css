@@ -1,6 +1,5 @@
 body{
     margin:0;
-    background-image: url("");
 }
 header{
     background-color: #7c9cd8;
@@ -145,9 +144,7 @@ main h1, h2 {
     margin: 0;
 }
 
-#velemenyek a{
-    text-decoration: none;
-}
+
 
 #komment{
     margin-left: 40px;
@@ -200,6 +197,7 @@ textarea{
 }
 
 aside {
+    position: fixed;
     padding: 15px;
     width: 25%;
     margin: 15px;
@@ -211,21 +209,5 @@ aside {
 }
 
 
-#chat aside{
-    margin-left: 10px;
-    height: 500px;
-}
 
-#chat a{
-    text-decoration: none;
-}
 
-section{
-    margin-right: 50%;
-    margin-left: 50%;
-    color: #037171;
-    font-size: 30px;
-    vertical-align: center;
-    text-align: center;
-
-}
