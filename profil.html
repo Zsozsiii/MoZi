@@ -5,6 +5,7 @@
     <title>Profil</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/profil.css">
+    <link rel="icon" href="kepek/logo.png">
 </head>
 <body>
 <header>
@@ -18,7 +19,7 @@
     <h1 id="profilcim">Profil</h1>
     <img id="profilkep" src="kepek/icon.png" alt="profilkep">
     <p>Felhaszáló név: </p>
-    <p class="hatter">Példa Józsi</p>
+    <p class="hatter">példajózsi</p>
     <p>Születési dátum: </p>
     <p class="hatter">2000.05.36.</p>
     <p>E-mail cím:</p>
@@ -44,18 +45,35 @@
                 <form action="" onsubmit="return confirm('Biztosan törölni akarod a kommentet?');">
                     <input type="image" src="kepek/trash.png" alt="trash">
                 </form>
+                <form action="" onsubmit="return confirm('Dolgozunk rajta :)');">
+                    <input class="edit" type="image" src="kepek/edit.png" alt="edit">
+                </form>
                 <p>Sztem jó volt. Lájk</p>
                 <span>Film, ahova írtad</span>
             </blockquote>
             <blockquote>
                 <form action="" onsubmit="return confirm('Biztosan törölni akarod a kommentet?');">
-                    <input type="image" src="kepek/trash.png" alt="trash">
+                    <input class="trash" type="image" src="kepek/trash.png" alt="trash">
+                </form>
+                <form action="" onsubmit="return confirm('Dolgozunk rajta :)');">
+                    <input class="edit" type="image" src="kepek/edit.png" alt="edit">
                 </form>
                 <p>Rossz volt. nem tetszett :( Diszlájk</p>
                 <span>Film, ahova írtad</span>
             </blockquote>
         </div>
     </section>
+    <section id="adatok">
+        <h1>Személyes adatok</h1>
+        <h2>Teljes név:</h2>
+        <p>Példa József János</p>
+        <h2>Telefonszám:</h2>
+        <p>+36 70 827 5245</p>
+        <h2>Bankkártya szám:</h2>
+        <p>3426 3637 3638 6323</p>
+
+    </section>
+
 </main>
 </body>
 </html>
