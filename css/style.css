@@ -1,6 +1,5 @@
 body{
     margin:0;
-    background-image: url("bg.jpg");
 }
 header{
     background-color: #7c9cd8;
@@ -82,8 +81,9 @@ header h1{
 main {
     position: absolute;
     top: 80px;
+    left: 0;
+    right: 0;
     padding: 10px;
-    width: 100%;
 }
 
 #poster {
@@ -174,10 +174,10 @@ input[type="submit"]:hover{
 
 .fo_plakat {
     display: inline-block;
-    width: 45%;
+    width: 47.5%;
     background-color: #EAF1FF;
     border-radius: 15px;
-    margin: 10px;
+    margin: 10px 1%;
 }
 
 .like input[type="image"]{

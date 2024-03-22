@@ -49,6 +49,12 @@ input[type="image"] {
     text-align: right;
 }
 
+.lighter form {
+    margin: -10px -12px;
+    float: left;
+}
+
+
 .container::after {
     content: "";
     clear: both;
