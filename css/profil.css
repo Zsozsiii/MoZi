@@ -16,8 +16,8 @@ p{
 
 }
 #profilkep{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     margin:auto;
 }
 .hatter{
@@ -29,9 +29,40 @@ p{
 }
 section{
     margin-right: 50%;
-    margin-left: 50%;
+    margin-left: 35%;
     color: #037171;
     font-size: 30px;
     vertical-align: center;
     text-align: center;
+    width: 60%;
+}
+
+
+#tevekenysegeim h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+#tevekenysegeim h2{
+    font-size: 20px;
+    text-align: left;
+}
+
+#csuszka{
+    display: flex;
+    overflow-x: auto;
+}
+
+#tevekenysegeim img{
+    width: 200px;
+    margin: 10px;
+}
+
+input[type="image"] {
+    float: left;
+    margin: 5px;
+    height: 35px;
+}
+
+#tevekenysegeim form{
 }

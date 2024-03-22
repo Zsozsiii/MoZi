@@ -124,13 +124,13 @@ main h1, h2 {
     margin: 5px;
 }
 
-#velemenyek {
+.velemenyek {
     display: block;
     margin: 10px;
     clear: left;
 }
 
-#velemenyek blockquote {
+.velemenyek blockquote {
     background-color: #EAF1FF;
     padding: 15px 20px;
     border-radius: 15px;
@@ -147,7 +147,7 @@ main h1, h2 {
     vertical-align: bottom;
 }
 
-#velemenyek p{
+.velemenyek p{
     margin: 0;
 }
 
