@@ -1,5 +1,6 @@
 body{
     margin:0;
+    /*background-image: url("bg.jpg");*/
 }
 header{
     background-color: #7c9cd8;
@@ -15,6 +16,11 @@ header a:hover{
     color: #037171;
     background-color: white;
     border-radius: 10px;
+}
+
+@media  screen  and (max-width: 600px){
+    header div.right;
+    header div{float: none};
 }
 
 header a{
@@ -174,10 +180,10 @@ input[type="submit"]:hover{
 
 .fo_plakat {
     display: inline-block;
-    width: 47.5%;
+    width: 45%;
     background-color: #EAF1FF;
     border-radius: 15px;
-    margin: 10px 1%;
+    margin: 10px;
 }
 
 .like input[type="image"]{
