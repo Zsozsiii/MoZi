@@ -14,14 +14,9 @@ input[type="image"] {
 }
 
 #beszelgeteseim{
-    padding: 0px;
+    padding: 0;
     width: 60vw;
     margin-left: 35%;
-}
-
-#beszelgeteseim section{
-    margin: revert;
-    width: 60vw;
     display: block;
     color: #037171;
     font-size: 30px;
