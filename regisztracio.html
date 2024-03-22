@@ -16,25 +16,36 @@
 <main>
     <form action="bejelentkezes.html" method="post">
         <fieldset>
+            <legend>Személyes adatok</legend>
             <label> Vezetéknév: <br>
-            <input type="text" name="lastname" > </label>
+                <input type="text" name="lastname" > </label>
             <label> Keresztnév: <br>
-            <input type="text" name="firstname"> </label>
+                <input type="text" name="firstname"> </label>
             <label>Születési dátum: <br>
-            <input type="date"> </label>
-            <label>E-mail: <br>
-            <input type="email" name="email" placeholder="valami@gmail.com" required> </label>
-            <label>Jelszó: <br>
-            <input type="password" name="password" required> </label>
-            <label>Jelszó újra: <br>
-            <input type="password" name="ujra" minlength="8" maxlength="16" required> </label>
+                <input type="date"> </label>
+            <label>Telefonszám:
+                <input type="tel" name="phone" placeholder="+36 66 123 4567"></label>
+           </fieldset>
+        <fieldset>
+            <legend>Bankkártya adatok</legend>
             <label>Bankkártya szám: <br>
-                <input type="number" name="kartya" minlength="16" maxlength="16" required> </label>
+                <input type="text" name="kartya" placeholder="1234 5678 9101 1121" minlength="16" maxlength="16" required> </label>
             <label>Lejárati dátum: <br>
                 <input type="month" name="lejarat" required>
             </label>
-            <label>Biztonsági kód: <br>
-                <input type="number" maxlength="3" name="biztonsagi_kod" required> </label>
+            <label>CVC kód: <br>
+                <input type="text" name="biztonsagi_kod" placeholder="123" minlength="3" maxlength="3" required> </label>
+        </fieldset>
+        <fieldset>
+            <legend>Fiók adatok</legend>
+            <label>E-mail: <br>
+                <input type="email" name="email" placeholder="valami@gmail.com" required> </label>
+            <label>Felhasználónév:
+                <input type="text" name="username" required></label>
+            <label>Jelszó: <br>
+                <input type="password" name="password" required> </label>
+            <label>Jelszó újra: <br>
+                <input type="password" name="ujra" minlength="8" maxlength="16" required> </label>
             <input type="submit" value="Regisztráció">
         </fieldset>
     </form>

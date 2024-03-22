@@ -21,6 +21,10 @@ label {
     font-size: 20px;
 }
 
+input:required {
+    border: solid 2px #037171;
+}
+
 input, textarea {
     margin: 10px;
     border: solid thin #037171;

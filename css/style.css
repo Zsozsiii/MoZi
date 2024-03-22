@@ -103,7 +103,7 @@ main h1, h2 {
 }
 
 #filmcim {
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 #trailer {
@@ -147,6 +147,10 @@ main h1, h2 {
     vertical-align: bottom;
 }
 
+.nev a {
+    margin: 0 -5px -5px 5px;
+}
+
 .velemenyek p{
     margin: 0;
 }
@@ -179,11 +183,16 @@ input[type="submit"]:hover{
 }
 
 .fo_plakat {
-    display: inline-block;
-    width: 45%;
+    display: inline-table;
     background-color: #EAF1FF;
     border-radius: 15px;
     margin: 10px;
+}
+
+.fo_plakat form{
+    margin: 5px;
+    vertical-align: middle;
+    text-align: center;
 }
 
 .like input[type="image"]{
@@ -192,8 +201,8 @@ input[type="submit"]:hover{
 }
 
 .plakat{
-    margin: 15px;
-    width: 150px;
+    margin: 25px 25px 10px 25px;
+    width: 200px;
     float: left;
 }
 
@@ -213,7 +222,3 @@ aside {
     box-shadow: 5px 5px 30px 0 slategray;
     color: #037171;
 }
-
-
-
-
